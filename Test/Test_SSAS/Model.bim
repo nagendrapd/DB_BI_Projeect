@@ -1,0 +1,38 @@
+{
+  "name": "SemanticModel",
+  "compatibilityLevel": 1200,
+  "model": {
+    "culture": "en-US",
+    "dataSources": [
+      {
+        "name": "Excel Test",
+        "connectionString": "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\TMGvpa\\Desktop\\Test.xlsx;Persist Security Info=false;Extended Properties=\"Excel 12.0;HDR=Yes;\"",
+        "impersonationMode": "impersonateCurrentUser",
+        "annotations": [
+          {
+            "name": "ConnectionEditUISource",
+            "value": "Excel"
+          }
+        ]
+      },
+      {
+        "name": "Excel Test 2",
+        "connectionString": "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\TMGvpa\\Desktop\\Test.xlsx;Persist Security Info=false;Extended Properties=\"Excel 12.0;HDR=Yes;\"",
+        "impersonationMode": "impersonateServiceAccount",
+        "annotations": [
+          {
+            "name": "ConnectionEditUISource",
+            "value": "Excel"
+          }
+        ]
+      }
+    ],
+    "annotations": [
+      {
+        "name": "ClientCompatibilityLevel",
+        "value": "400"
+      }
+    ]
+  },
+  "id": "SemanticModel"
+}
